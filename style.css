@@ -1,0 +1,35 @@
+.tab__btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tab__btn{
+    background: #FFFFFF;
+    border: 2px solid #DEEBF8;
+    width: 165px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #17A3E0;
+}
+.tab__btn.active{
+    color: #fff;
+    border-color: #17A3E0;
+    background-color: #17A3E0;
+}
+
+
+
+.tab__content{
+    display: none;
+}
+.tab__content.active{
+    display: flex;
+}
